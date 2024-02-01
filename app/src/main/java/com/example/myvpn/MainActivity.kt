@@ -68,11 +68,11 @@ class MainActivity : ComponentActivity() {
         countries.add("Australia")
         countries.add("Germany")
 
-        ipAdesses.add("192.168.1.1")
-        ipAdesses.add("192.168.1.2")
-        ipAdesses.add("192.168.1.3")
-        ipAdesses.add("192.168.1.4")
-        ipAdesses.add("192.168.1.5")
+        ipAdesses.add("147.182.180.242")
+        ipAdesses.add("134.213.201.140")
+        ipAdesses.add("100.42.23.255")
+        ipAdesses.add("101.167.175.255")
+        ipAdesses.add("104.21.191.255")
     }
 
     private fun selectRandom() {
@@ -90,22 +90,27 @@ class MainActivity : ComponentActivity() {
         when (randomCountry) {
             "United States" -> {
                 countryFlag.setImageResource(R.drawable.usa)
+                ipAdress.text = ipAdesses[0]
             }
 
             "United Kingdom" -> {
                 countryFlag.setImageResource(R.drawable.uk)
+                ipAdress.text = ipAdesses[1]
             }
 
             "Canada" -> {
                 countryFlag.setImageResource(R.drawable.canada)
+                ipAdress.text = ipAdesses[3]
             }
 
             "Australia" -> {
                 countryFlag.setImageResource(R.drawable.australia)
+                ipAdress.text = ipAdesses[4]
             }
 
             "Germany" -> {
                 countryFlag.setImageResource(R.drawable.germany)
+                ipAdress.text = ipAdesses[5]
             }
         }
     }
