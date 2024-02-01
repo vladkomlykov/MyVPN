@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My VPN</string>
+    <string name="androidvpn">AndroidVPN</string>
+    <string name="vpnImage">vpnImage</string>
+    <string name="AndroidVPN">AndroidVPN</string>
+    <string name="connect">Connect</string>
+</resources>
